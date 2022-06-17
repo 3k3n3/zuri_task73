@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-desktop.png);
+}
+
+@media (max-width:1000px) {
+    main{
+        height: auto;
+        flex-direction: column;
+        background-image: url(./images/bg-intro-mobile.png);
+    }
+    main .content{
+        margin-left: -21%;
+    }
+
+    main .content h1{
+        text-align: center;
+        line-height: 40px;
+        font-size: 30px;
+        margin-top: 120px;
+    }
+    main .content p{
+        text-align: center;
+        margin-top: 25px;
+    }
+    main .try{
+        width: 90%;
+        padding: 20px 50px;
+        margin: 70px 0px 20px 0px;
+        display: inline-table;
+    }
+    
+    main .login{
+        color:hsl(249, 10%, 26%) ;
+        width:90%;
+        margin: auto;
+        margin-bottom: 80px;
+        padding: 20px 20px 40px 20px;
+    }
+    
+    main #fname, main #lname, main #email, main #pword{
+        padding: 15px 49px;
+        margin: 10px
+    }
+    
+    main .claim{
+        padding: 15px 58px;
+        margin: 10px;
+        border: 1px solid hsl(154, 59%, 51%);
+    }
+
+    main .login small{
+        font-size: xx-small;
+    }
+}
+
+@media (max-width:1440px){
+    .content h1, p {
+        margin-top: 3000%;
+        width: 50em;
+        text-align: left;
+    }
+    
+    .content h1{
+        line-height: 60px;
+        margin-top: 450px;
+    }
+    .content p{
+        padding-right: 3em;
+        margin-top: 30px;
+        font-weight: 14px;
+    }
+
+    .try{
+        margin: 120px 0px 25px;
+        display: block;
+    }
+
+    .login{
+        margin-right: 10em;
+        width: fit-content;
+        padding: 20px 20px 40px 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .content h1, p {
+        width: auto;
+        text-align: center;
+    }
+    
+    .content h1{
+        line-height: 60px;
+        margin-top: 450px;
+    }
+    .content p{
+        margin-left: 8.75em;
+        margin-top: 30px;
+        font-weight: 14px;
+    }
+}
+.content h1, p {
+    color: white;
+    width: 65%;
+    margin: auto;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.content h1{
+    line-height: 60px;
+    font-size: 49px;
+    margin-top: 290px;
+}
+.content p{
+    margin-top: 30px;
+    font-weight: 16px;
+}
+
+.right, .content{
+    flex: 50%;
+}
+.try{
+    padding: 20px 138px;
+    margin: 120px 0px 25px;
+    display: block;
+    border: 1px solid  hsl(248, 32%, 49%);
+    border-radius: 10px;
+    color: white;
+    background-color:  hsl(248, 32%, 49%);
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.153);
+}
+
+.login{
+    color:hsl(249, 10%, 26%) ;
+    width: fit-content;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid hsl(0, 100%, 74%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0px 8px 0px 0px rgba(0, 0, 0, 0.153);
+}
+
+#fname, #lname, #email, #pword{
+    padding: 20px 270px 20px 25px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.claim{
+    padding: 20px 165px 20px 165px;
+    margin: 10px;
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 700;
+    box-shadow: inset 0px -3px 0px 1px rgba(0, 0, 0, 0.153);
+}
+
+.login small{
+    font-size: 12px;
+}
+
+.terms a{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
