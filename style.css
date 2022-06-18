@@ -97,6 +97,18 @@ main{
     }
 }
 
+@media (max-width:425px) {
+    .content p{
+        margin-left: 10.2em;
+    }
+    .login #fname, .login #lname, .login #email, .login #pword{
+        padding:15px 100px 15px 25px;
+    }
+    .login .claim{
+        padding: 18px 75px;
+    }
+}
+
 @media (max-width:375px) {
     .content h1, p {
         width: auto;
@@ -111,6 +123,29 @@ main{
         margin-left: 8.75em;
         margin-top: 30px;
         font-weight: 14px;
+    }
+    .login #fname, .login #lname, .login #email, .login #pword{
+        padding-left: 25px;
+        width: 92%;
+    }
+}
+
+@media (max-width:320px) {
+    .content h1, p {
+        text-align: center;
+    }
+    .content h1{
+        padding-left: 12px;
+        line-height: 60px;
+        margin-top: 450px;
+    }
+    .content p{
+        margin-left: 7.75em;
+        margin-top: 30px;
+        font-weight: 14px;
+    }
+    .login #fname, .login #lname, .login #email, .login #pword{
+        padding:15px 22px;
     }
 }
 .content h1, p {
