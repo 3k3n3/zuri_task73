@@ -229,7 +229,7 @@ p {
     .main #lname,
     .main #email,
     .main #pword {
-        padding: 5% 35% 5% 5%;
+        padding: 15px 90px 15px 15px;
         margin: 10px
     }
 
@@ -253,7 +253,7 @@ p {
     .login #lname,
     .login #email,
     .login #pword {
-        padding: 5% 26% 5% 5%;
+        padding: 15px 45px 15px 15px;
     }
 
     .main .claim {
